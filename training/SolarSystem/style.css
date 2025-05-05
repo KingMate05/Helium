@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.soleil {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgb(0, 0, 0);
+  height: 120px;
+  width: 120px;
+}
+.terre {
+    position: absolute;
+  background-color: blue;
+  bottom: 0;
+  border-radius: 50px;
+  box-shadow: 0 0 0 rgb(0, 0, 0);
+  height: 50px;
+  width: 50px;
+  top: 0px;
+}
+.lune {
+  background-color: gray;
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: 0 0 0 rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 150px;
+}
