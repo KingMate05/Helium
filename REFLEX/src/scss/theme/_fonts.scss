@@ -1,0 +1,32 @@
+:root {
+  --ff-primary: "DM Sans";
+
+  --fs-heading-h1: 4rem;
+  --fs-heading-h2: 3rem;
+
+  --fs-content: 1.6rem;
+  --fs-content-sm: 1.2rem;
+  --container-padding: 40px;
+
+  --title: {
+  }
+  @apply var(--title);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PlayfairDisplay";
+}
